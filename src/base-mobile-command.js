@@ -74,7 +74,7 @@ Base.prototype.checkConditions = function () {
   });
 };
 
-Base.prototype.pass = function ({ actual, expected }) {
+Base.prototype.pass = function ({ actual, expected } = {}) {
   const pactual = actual || "visible";
   const pexpected = pactual;
   const message = this.successMessage;
