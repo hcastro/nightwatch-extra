@@ -20,6 +20,7 @@ SwipeScreenTo.prototype.do = function () {
         { "action": "press", "options": { "x": this.fx, "y": this.fy } },
         { "action": "wait", "options": { "ms": 800 } },
         { "action": "moveTo", "options": { "x": this.tx, "y": this.ty } },
+        { "action": "wait", "options": { "ms": 800 } },
         { "action": "release", "options": {} }]
     }
   };
